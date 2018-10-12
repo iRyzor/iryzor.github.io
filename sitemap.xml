@@ -8,17 +8,16 @@
   </url>
   
   <url>
+    <loc>https://iryzor.github.io/</loc>
+  </url>
+  
+  <url>
     <loc>https://iryzor.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://iryzor.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://iryzor.github.io/</loc>
     <priority>0</priority>
   </url>
   

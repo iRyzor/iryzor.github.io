@@ -7,6 +7,13 @@
 	"content": " Chapter X Some Chapter title Lorem Ipsum.\n"
 },
 {
+	"uri": "https://iryzor.github.io/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Wolaas\n"
+},
+{
 	"uri": "https://iryzor.github.io/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -16,13 +23,6 @@
 {
 	"uri": "https://iryzor.github.io/tags/",
 	"title": "Tags",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://iryzor.github.io/",
-	"title": "The Purple Book",
 	"tags": [],
 	"description": "",
 	"content": ""
