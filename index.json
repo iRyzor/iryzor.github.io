@@ -1,17 +1,31 @@
 [
 {
-	"uri": "https://iryzor.github.io/test/",
-	"title": "Test",
+	"uri": "https://iryzor.github.io/introduction/",
+	"title": "Introducción",
 	"tags": [],
 	"description": "",
-	"content": " Chapter X Some Chapter title Lorem Ipsum.\n"
+	"content": "Bienvenido al libro morado. El objetivo de este libro es proporcionar información a la comunidad Hispanohablante de SS13 para que aprendan a crear contenido para el juego y poder contribuir al repositorio de Hispania.\nSi encuentras algún error o deseas contribuir, puedes consultar nuestro GitHub. También puedes unirte al discord de Hispania por si necesitas ayuda con el código o con esta guía\n"
+},
+{
+	"uri": "https://iryzor.github.io/getting-started/",
+	"title": "Empezando",
+	"tags": [],
+	"description": "",
+	"content": " Empezando Aquí es donde comienza tu viaje, al continuar asumes las consecuencias y disfrutarás de increibles dolores de cabeza y satisfacción en partes iguales.\n Instalación Hacer Fork a un Repositorio Clonar tu repositorio Git Crear un PR (Pull Request)  "
 },
 {
 	"uri": "https://iryzor.github.io/",
 	"title": "Index",
 	"tags": [],
 	"description": "",
-	"content": " The Purple Book ñ Documentacion en espanol para los futuros aspirantes a developers en la comunidad hispanohablante de Space Station 13.\nThe Purple Book usa Paradise como base para las explicaciones.\n"
+	"content": " The Purple Book Documentaci�n en espa�ol para los futuros aspirantes a developers en la comunidad hispanohablante de Space Station 13.\nThe Purple Book usa Paradise como base para las explicaciones.\n"
+},
+{
+	"uri": "https://iryzor.github.io/getting-started/installation/",
+	"title": "Instalación",
+	"tags": [],
+	"description": "",
+	"content": " ¿Qué es Github? GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git.\nInstalación Ve a Git y descargalo.\n"
 },
 {
 	"uri": "https://iryzor.github.io/categories/",
