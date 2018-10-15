@@ -22,5 +22,48 @@ Instalación Ve a Git, descargalo y abre el archivo. Para los desentendidos solo
 Y eso es todo, instalado.</description>
     </item>
     
+    <item>
+      <title>Fork</title>
+      <link>https://iryzor.github.io/getting-started/fork/</link>
+      <pubDate>Mon, 15 Oct 2018 17:26:37 -0400</pubDate>
+      
+      <guid>https://iryzor.github.io/getting-started/fork/</guid>
+      <description>¿Qué es un Fork? Una bifurcación (fork en inglés), en el ámbito del desarrollo de software, es la creación de un proyecto en una dirección distinta de la principal u oficial tomando el código fuente del proyecto ya existente. Comúnmente se utiliza el término inglés. Como resultado de la bifurcación se pueden llegar a generar proyectos diferentes que cubren necesidades distintas aunque similares. El término también puede ser usado para representar la ramificación de cualquier trabajo.</description>
+    </item>
+    
+    <item>
+      <title>Clonar un repositorio</title>
+      <link>https://iryzor.github.io/getting-started/clone/</link>
+      <pubDate>Mon, 15 Oct 2018 17:38:50 -0400</pubDate>
+      
+      <guid>https://iryzor.github.io/getting-started/clone/</guid>
+      <description>¿Clonar un repositorio? Significa descargarse una copia completa del mismo a nuestra computadora.
+¿Qué debo hacer? Nota: Los siguientes pasos puedes realizarlos como de costumbre, sin utilizar la consola, el propósito de que lo enseñe así es para que se vayan acostumbrando a moverse por ella.
+ Abrimos nuestra consola de comandos preferida.  Creamos una carpeta nueva con el comando mkdir {NOMBRE DE LA CARPETA}  ls o dir muestra todas las carpetas de la ruta donde te encuentras.</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://iryzor.github.io/getting-started/git/</link>
+      <pubDate>Mon, 15 Oct 2018 18:10:49 -0400</pubDate>
+      
+      <guid>https://iryzor.github.io/getting-started/git/</guid>
+      <description>El poder del Git Al terminar de clonar el repositorio usa el comando cd Paradise, luego git status para ver que todo está en orden.
+Ignora esos tres archivos
+Branches El tema de las branches o ramas es un poco complejo, si estás interesado en saber bien como funciona, clica en Saber Más.
+Debemos crear un branch para nuestro proyecto con el siguiente comando: git checkout -b NOMBRE-DE-TU-BRANCH ojo, el nombre de la branch no debe llevar espacios.</description>
+    </item>
+    
+    <item>
+      <title>Pull Request</title>
+      <link>https://iryzor.github.io/getting-started/pull_request/</link>
+      <pubDate>Mon, 15 Oct 2018 18:38:39 -0400</pubDate>
+      
+      <guid>https://iryzor.github.io/getting-started/pull_request/</guid>
+      <description>¿Qué es un Pull Request? Un Pull Request es la acción de validar un código que se va a mergear de una rama a otra.
+¿Cómo lo hago? Luego de seguir los anteriores pasos, vamos al repositorio de Helixis para encontrarnos con esta linda sorpresa: Sólo tenemos que clicar en Compare &amp;amp; Pull Request para finalmente&amp;hellip;
+Recuerda dejar un comentario explicando tus cambios y a ser posible imagenes.</description>
+    </item>
+    
   </channel>
 </rss>

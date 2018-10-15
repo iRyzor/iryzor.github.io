@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Index :: The Purple Book</title>
+    <title>Git :: The Purple Book</title>
 
     
     <link href="/css/nucleus.css?1539643437" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/getting-started/git/">
     <nav id="sidebar" class="">
 
 
@@ -97,7 +97,7 @@
   
     
     <li data-nav-id="/getting-started/" title="Empezando" class="dd-item 
-        
+        parent
         
         
         ">
@@ -178,7 +178,7 @@
  
   
     
-      <li data-nav-id="/getting-started/git/" title="Git" class="dd-item ">
+      <li data-nav-id="/getting-started/git/" title="Git" class="dd-item active">
         <a href="/getting-started/git/">
         <b>2.4. </b>Git
         
@@ -239,29 +239,134 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Index</a> > <a href='/getting-started/'>Empezando</a> > Git
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#el-poder-del-git">El poder del Git</a></li>
+<li><a href="#branches">Branches</a></li>
+<li><a href="#add-commit">Add &amp; Commit</a></li>
+<li><a href="#push">Push</a>
+<ul>
+<li><a href="#qué-es-un-push">¿Qué es un Push?</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>Git</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
-
- 
 
 
-<h1 id="the-purple-book">The Purple Book</h1>
 
-<p>Documentacion en espanol para los futuros aspirantes a developers en la comunidad hispanohablante de Space Station 13.</p>
+<h4 id="el-poder-del-git">El poder del Git</h4>
 
-<hr />
+<p>Al terminar de clonar el repositorio usa el comando <code>cd Paradise</code>, luego <code>git status</code> para ver que todo está en orden.</p>
 
-<p><em>The Purple Book usa Paradise como base para las explicaciones.</em></p>
+<p><img src="/images/getting-started/20.png" alt="" />
+<em>Ignora esos tres archivos</em></p>
+
+<h4 id="branches">Branches</h4>
+
+<p>El tema de las branches o ramas es un poco complejo, si estás interesado en saber bien como funciona, clica en <a href="https://git-scm.com/book/es/v1/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F">Saber Más</a>.</p>
+
+<p>Debemos crear un branch para nuestro proyecto con el siguiente comando: <code>git checkout -b NOMBRE-DE-TU-BRANCH</code> ojo, el nombre de la branch no debe llevar espacios.</p>
+
+<p><img src="/images/getting-started/21.png" alt="" /></p>
+
+<p>Acabas de crear un branch y ahora mismo te encuentras en él. [master -&gt; tu-branch]</p>
+
+<p>Ahora trabaja en tu proyecto, crea lo que quieras, edita y guarda.</p>
+
+<h4 id="add-commit">Add &amp; Commit</h4>
+
+<p>Luego de hacer todos los cambios y comprobar que todo funciona en orden, toca hacer un push, para ello primero ejecuta el comando <code>git status</code> para comprobar el estado de tus archivos.</p>
+
+<p><img src="/images/getting-started/22.png" alt="" /></p>
+
+<p>Con el comando <code>git add DIR-DEL-ARCHIVO-MODIFICADO</code> añadimos archivos para crear un commit.
+Ejemplo: <code>git add code/defines/procs/admin.dm</code> y <code>git add code/defines/procs/statistics.dm</code></p>
+
+<p>Luego de añadir los archivos modificados, haremos un commit con el siguiente comando:
+<code>git commit -m &quot;Aqui dale un nombre al commit, en pocas palabras los cambios que hiciste ej: Pequeños cambios en los procesos&quot;</code></p>
+
+<p><img src="/images/getting-started/23.png" alt="" /></p>
+
+<p>Ahora toca hacer un Push.</p>
+
+<h4 id="push">Push</h4>
+
+<h5 id="qué-es-un-push">¿Qué es un Push?</h5>
+
+<p>Es un comando que sube los cambios hechos en tu ambiente de trabajo a una rama de trabajo tuya y/o de tu equipo remota.</p>
+
+<p>Usa el siguiente comando: <code>git push origin [NOMBRE DE TU BRANCH]</code></p>
+
+<p>Y eso es todo.
+Si has llegado hasta aquí, te felicito. de premio harás tu primer PULL REQUEST [PR].</p>
+
+
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
         
@@ -312,6 +417,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -319,6 +425,25 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -357,21 +482,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -389,6 +499,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -410,8 +523,10 @@
 
 
         
+            <a class="nav nav-prev" href="/getting-started/clone/" title="Clonar un repositorio"> <i class="fas fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/introduction/" title="Introducción" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/getting-started/pull_request/" title="Pull Request" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
         
     </div>
 

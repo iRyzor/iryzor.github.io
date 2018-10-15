@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://iryzor.github.io/getting-started/installation/</loc>
+    <lastmod>2018-10-12T19:45:52-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://iryzor.github.io/introduction/</loc>
     <lastmod>2018-10-12T18:57:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iryzor.github.io/getting-started/fork/</loc>
+    <lastmod>2018-10-15T17:26:37-04:00</lastmod>
   </url>
   
   <url>
@@ -13,12 +23,22 @@
   </url>
   
   <url>
-    <loc>https://iryzor.github.io/</loc>
-    <lastmod>2018-10-12T19:45:52-04:00</lastmod>
+    <loc>https://iryzor.github.io/getting-started/clone/</loc>
+    <lastmod>2018-10-15T17:38:50-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://iryzor.github.io/getting-started/installation/</loc>
+    <loc>https://iryzor.github.io/getting-started/git/</loc>
+    <lastmod>2018-10-15T18:10:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iryzor.github.io/getting-started/pull_request/</loc>
+    <lastmod>2018-10-15T18:38:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iryzor.github.io/</loc>
     <lastmod>2018-10-12T19:45:52-04:00</lastmod>
   </url>
   

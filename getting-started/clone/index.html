@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Index :: The Purple Book</title>
+    <title>Clonar un repositorio :: The Purple Book</title>
 
     
     <link href="/css/nucleus.css?1539643437" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/getting-started/clone/">
     <nav id="sidebar" class="">
 
 
@@ -97,7 +97,7 @@
   
     
     <li data-nav-id="/getting-started/" title="Empezando" class="dd-item 
-        
+        parent
         
         
         ">
@@ -159,7 +159,7 @@
  
   
     
-      <li data-nav-id="/getting-started/clone/" title="Clonar un repositorio" class="dd-item ">
+      <li data-nav-id="/getting-started/clone/" title="Clonar un repositorio" class="dd-item active">
         <a href="/getting-started/clone/">
         <b>2.3. </b>Clonar un repositorio
         
@@ -239,29 +239,138 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Index</a> > <a href='/getting-started/'>Empezando</a> > Clonar un repositorio
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#clonar-un-repositorio">¿Clonar un repositorio?</a></li>
+<li><a href="#qué-debo-hacer">¿Qué debo hacer?</a></li>
+<li><a href="#cómo-clono-el-repositorio">¿Cómo clono el repositorio?</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>Clonar un repositorio</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
-
- 
 
 
-<h1 id="the-purple-book">The Purple Book</h1>
 
-<p>Documentacion en espanol para los futuros aspirantes a developers en la comunidad hispanohablante de Space Station 13.</p>
+<h4 id="clonar-un-repositorio">¿Clonar un repositorio?</h4>
 
-<hr />
+<p>Significa descargarse una copia completa del mismo a nuestra computadora.</p>
 
-<p><em>The Purple Book usa Paradise como base para las explicaciones.</em></p>
+<h4 id="qué-debo-hacer">¿Qué debo hacer?</h4>
+
+<p>Nota: <em>Los siguientes pasos puedes realizarlos como de costumbre, sin utilizar la consola, el propósito de que lo enseñe así es para que se vayan acostumbrando a moverse por ella.</em></p>
+
+<ol>
+<li><p>Abrimos nuestra consola de comandos preferida.
+<img src="/images/getting-started/11.png" alt="" /></p></li>
+
+<li><p>Creamos una carpeta nueva con el comando <code>mkdir {NOMBRE DE LA CARPETA}</code>
+<img src="/images/getting-started/12.png" alt="" /></p></li>
+
+<li><p><code>ls</code> o <code>dir</code> muestra todas las carpetas de la ruta donde te encuentras.
+<img src="/images/getting-started/13.png" alt="" /></p></li>
+
+<li><p>Con <code>cd {NOMBRE DE LA CARPETA}</code> entras a la carpeta.
+<img src="/images/getting-started/14.png" alt="" />
+<em>Recuerden ser ordenados y nombrar todo como se debe</em></p></li>
+</ol>
+
+<p>Ya dentro de una carpeta limpia, procedemos a poner los siguientes comandos:</p>
+
+<ul>
+<li><code>git config --global user.name &quot;tu nombre&quot;</code></li>
+<li><code>git config --global user.email &quot;tu@email.com&quot;</code></li>
+</ul>
+
+<p>modifica los valores que están dentro de las comillas</p>
+
+<h4 id="cómo-clono-el-repositorio">¿Cómo clono el repositorio?</h4>
+
+<p>Luego de hacer el Fork, vas al apartado para ver tus repositorios</p>
+
+<p><img src="/images/getting-started/15.png" alt="" /></p>
+
+<p>Aparecerá un repositorio llamado <em>Paradise</em>, entramos.</p>
+
+<p><img src="/images/getting-started/16.png" alt="" /></p>
+
+<p>Clicamos en Clone or Download y copiamos la url que nos dan.</p>
+
+<p><img src="/images/getting-started/17.png" alt="" /></p>
+
+<p>Volvemos a la consola y ponemos <code>git clone URL</code></p>
+
+<p><img src="/images/getting-started/18.png" alt="" /></p>
+
+<p>Y solo toca esperar a que se descarguen los archivos.</p>
+
+<p><img src="/images/getting-started/19.png" alt="" /></p>
+
+
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
         
@@ -312,6 +421,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -325,37 +435,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
                     
                 
                 
@@ -389,6 +470,42 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                 
                 
 
@@ -410,8 +527,10 @@
 
 
         
+            <a class="nav nav-prev" href="/getting-started/fork/" title="Fork"> <i class="fas fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/introduction/" title="Introducción" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/getting-started/git/" title="Git" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
         
     </div>
 

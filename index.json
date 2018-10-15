@@ -1,10 +1,24 @@
 [
 {
+	"uri": "https://iryzor.github.io/getting-started/installation/",
+	"title": "Instalación",
+	"tags": [],
+	"description": "",
+	"content": " ¿Qué es Github? GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git.\nInstalación Ve a Git, descargalo y abre el archivo. Para los desentendidos solo cliquen en Next hasta instalarlo.\nY eso es todo, instalado.\n"
+},
+{
 	"uri": "https://iryzor.github.io/introduction/",
 	"title": "Introducción",
 	"tags": [],
 	"description": "",
 	"content": "Bienvenido al libro morado. El objetivo de este libro es proporcionar información a la comunidad Hispanohablante de SS13 para que aprendan a crear contenido para el juego y poder contribuir al repositorio de Hispania.\nSi encuentras algún error o deseas contribuir, puedes consultar nuestro GitHub. También puedes unirte al discord de Hispania por si necesitas ayuda con el código o con esta guía\n"
+},
+{
+	"uri": "https://iryzor.github.io/getting-started/fork/",
+	"title": "Fork",
+	"tags": [],
+	"description": "",
+	"content": " ¿Qué es un Fork? Una bifurcación (fork en inglés), en el ámbito del desarrollo de software, es la creación de un proyecto en una dirección distinta de la principal u oficial tomando el código fuente del proyecto ya existente. Comúnmente se utiliza el término inglés. Como resultado de la bifurcación se pueden llegar a generar proyectos diferentes que cubren necesidades distintas aunque similares. El término también puede ser usado para representar la ramificación de cualquier trabajo.\n¿Cómo creo un Fork? Primero debes registrarte en Github, luego ir al repositorio oficial de Hispania y clicar en el botón \u0026ldquo;Fork\u0026rdquo;\nGithub se encargará de generar el repositorio en tu cuenta.\n"
 },
 {
 	"uri": "https://iryzor.github.io/getting-started/",
@@ -14,18 +28,32 @@
 	"content": " Empezando Aquí es donde comienza tu viaje, al continuar asumes las consecuencias y disfrutarás de increibles dolores de cabeza y satisfacción en partes iguales.\n Instalación Hacer Fork a un Repositorio Clonar tu repositorio Git Crear un PR (Pull Request)  "
 },
 {
+	"uri": "https://iryzor.github.io/getting-started/clone/",
+	"title": "Clonar un repositorio",
+	"tags": [],
+	"description": "",
+	"content": " ¿Clonar un repositorio? Significa descargarse una copia completa del mismo a nuestra computadora.\n¿Qué debo hacer? Nota: Los siguientes pasos puedes realizarlos como de costumbre, sin utilizar la consola, el propósito de que lo enseñe así es para que se vayan acostumbrando a moverse por ella.\n Abrimos nuestra consola de comandos preferida.  Creamos una carpeta nueva con el comando mkdir {NOMBRE DE LA CARPETA}  ls o dir muestra todas las carpetas de la ruta donde te encuentras.  Con cd {NOMBRE DE LA CARPETA} entras a la carpeta. Recuerden ser ordenados y nombrar todo como se debe\n  Ya dentro de una carpeta limpia, procedemos a poner los siguientes comandos:\n git config --global user.name \u0026quot;tu nombre\u0026quot; git config --global user.email \u0026quot;tu@email.com\u0026quot;  modifica los valores que están dentro de las comillas\n¿Cómo clono el repositorio? Luego de hacer el Fork, vas al apartado para ver tus repositorios\nAparecerá un repositorio llamado Paradise, entramos.\nClicamos en Clone or Download y copiamos la url que nos dan.\nVolvemos a la consola y ponemos git clone URL\nY solo toca esperar a que se descarguen los archivos.\n"
+},
+{
+	"uri": "https://iryzor.github.io/getting-started/git/",
+	"title": "Git",
+	"tags": [],
+	"description": "",
+	"content": " El poder del Git Al terminar de clonar el repositorio usa el comando cd Paradise, luego git status para ver que todo está en orden.\nIgnora esos tres archivos\nBranches El tema de las branches o ramas es un poco complejo, si estás interesado en saber bien como funciona, clica en Saber Más.\nDebemos crear un branch para nuestro proyecto con el siguiente comando: git checkout -b NOMBRE-DE-TU-BRANCH ojo, el nombre de la branch no debe llevar espacios.\nAcabas de crear un branch y ahora mismo te encuentras en él. [master -\u0026gt; tu-branch]\nAhora trabaja en tu proyecto, crea lo que quieras, edita y guarda.\nAdd \u0026amp; Commit Luego de hacer todos los cambios y comprobar que todo funciona en orden, toca hacer un push, para ello primero ejecuta el comando git status para comprobar el estado de tus archivos.\nCon el comando git add DIR-DEL-ARCHIVO-MODIFICADO añadimos archivos para crear un commit. Ejemplo: git add code/defines/procs/admin.dm y git add code/defines/procs/statistics.dm\nLuego de añadir los archivos modificados, haremos un commit con el siguiente comando: git commit -m \u0026quot;Aqui dale un nombre al commit, en pocas palabras los cambios que hiciste ej: Pequeños cambios en los procesos\u0026quot;\nAhora toca hacer un Push.\nPush ¿Qué es un Push? Es un comando que sube los cambios hechos en tu ambiente de trabajo a una rama de trabajo tuya y/o de tu equipo remota.\nUsa el siguiente comando: git push origin [NOMBRE DE TU BRANCH]\nY eso es todo. Si has llegado hasta aquí, te felicito. de premio harás tu primer PULL REQUEST [PR].\n"
+},
+{
+	"uri": "https://iryzor.github.io/getting-started/pull_request/",
+	"title": "Pull Request",
+	"tags": [],
+	"description": "",
+	"content": " ¿Qué es un Pull Request? Un Pull Request es la acción de validar un código que se va a mergear de una rama a otra.\n¿Cómo lo hago? Luego de seguir los anteriores pasos, vamos al repositorio de Helixis para encontrarnos con esta linda sorpresa: Sólo tenemos que clicar en Compare \u0026amp; Pull Request para finalmente\u0026hellip;\nRecuerda dejar un comentario explicando tus cambios y a ser posible imagenes.\n"
+},
+{
 	"uri": "https://iryzor.github.io/",
 	"title": "Index",
 	"tags": [],
 	"description": "",
 	"content": " The Purple Book Documentacion en espanol para los futuros aspirantes a developers en la comunidad hispanohablante de Space Station 13.\nThe Purple Book usa Paradise como base para las explicaciones.\n"
-},
-{
-	"uri": "https://iryzor.github.io/getting-started/installation/",
-	"title": "Instalación",
-	"tags": [],
-	"description": "",
-	"content": " ¿Qué es Github? GitHub es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git.\nInstalación Ve a Git, descargalo y abre el archivo. Para los desentendidos solo cliquen en Next hasta instalarlo.\nY eso es todo, instalado.\n"
 },
 {
 	"uri": "https://iryzor.github.io/categories/",
